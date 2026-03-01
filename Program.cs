@@ -199,7 +199,8 @@ namespace Animal
       int totalCount;
       int displayNumber;
       int oneStep;
-
+      
+      oneStep = 1;
       totalCount = animalCollection.Count;
 
       if (totalCount == 0)
